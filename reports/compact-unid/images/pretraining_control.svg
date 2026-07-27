@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#fbfaf7"/>
+<text x="58" y="52" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Diffusion pretraining improves absolute task accuracy</text>
+<text x="58" y="79" fill="#667085" font-family="Inter,Arial,sans-serif" font-size="14">Matched seed-0 fourfold schedule; pretrained U-Net versus identical randomly initialized architecture</text>
+<text x="255" y="112" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">NYU depth AbsRel ↓</text>
+<rect x="90" y="221.22500000000002" width="36" height="203.77499999999998" rx="4" fill="#356ae6"/>
+<text x="108" y="214.22500000000002" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.214</text>
+<rect x="133" y="167.74" width="36" height="257.26" rx="4" fill="#d85555"/>
+<text x="151" y="160.74" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.271</text>
+<text x="128" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Specialist</text>
+<rect x="205" y="221.98499999999999" width="36" height="203.01500000000001" rx="4" fill="#356ae6"/>
+<text x="223" y="214.98499999999999" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.214</text>
+<rect x="248" y="176.95499999999998" width="36" height="248.04500000000002" rx="4" fill="#d85555"/>
+<text x="266" y="169.95499999999998" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.261</text>
+<text x="243" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Latent</text>
+<rect x="320" y="217.615" width="36" height="207.385" rx="4" fill="#356ae6"/>
+<text x="338" y="210.615" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.218</text>
+<rect x="363" y="171.25499999999997" width="36" height="253.74500000000003" rx="4" fill="#d85555"/>
+<text x="381" y="164.25499999999997" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.267</text>
+<text x="358" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Direct</text>
+<text x="675" y="112" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">ADE20K mIoU ↑</text>
+<rect x="510" y="189.818" width="36" height="235.182" rx="4" fill="#356ae6"/>
+<text x="528" y="182.818" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.021</text>
+<rect x="553" y="270.302" width="36" height="154.69799999999998" rx="4" fill="#d85555"/>
+<text x="571" y="263.302" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.014</text>
+<text x="548" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Specialist</text>
+<rect x="625" y="203.156" width="36" height="221.844" rx="4" fill="#356ae6"/>
+<text x="643" y="196.156" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.019</text>
+<rect x="668" y="341.21000000000004" width="36" height="83.78999999999999" rx="4" fill="#d85555"/>
+<text x="686" y="334.21000000000004" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.007</text>
+<text x="663" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Latent</text>
+<rect x="740" y="213.64399999999998" width="36" height="211.35600000000002" rx="4" fill="#356ae6"/>
+<text x="758" y="206.64399999999998" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.019</text>
+<rect x="783" y="293.102" width="36" height="131.898" rx="4" fill="#d85555"/>
+<text x="801" y="286.102" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600">0.012</text>
+<text x="778" y="448" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="400">Direct</text>
+<rect x="349" y="474" width="16" height="16" rx="3" fill="#356ae6"/>
+<text x="372" y="487" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">pretrained</text>
+<rect x="470" y="474" width="16" height="16" rx="3" fill="#d85555"/>
+<text x="493" y="487" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">random init</text>
+<text x="58" y="520" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">Random initialization worsened all six absolute comparisons; this supports a useful pretrained diffusion prior in the compact model.</text>
+</svg>

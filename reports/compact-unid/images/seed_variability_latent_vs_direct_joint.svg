@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#fbfaf7"/>
+<text x="58" y="52" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Seed variability: latent vs direct joint</text>
+<text x="58" y="79" fill="#667085" font-family="Inter,Arial,sans-serif" font-size="14">Each line is one independent long-schedule seed; higher is better</text>
+<line x1="110" y1="407.0" x2="900" y2="407.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="412.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0.8</text>
+<line x1="110" y1="341.0" x2="900" y2="341.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="346.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0.9</text>
+<line x1="110" y1="275.0" x2="900" y2="275.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="280.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.0</text>
+<line x1="110" y1="208.99999999999994" x2="900" y2="208.99999999999994" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="213.99999999999994" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.1</text>
+<line x1="110" y1="143.00000000000006" x2="900" y2="143.00000000000006" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="148.00000000000006" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.2</text>
+<line x1="110" y1="275.0" x2="900" y2="275.0" stroke="#172033" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="142" y1="292.5153209" x2="168" y2="314.083863962" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="142" cy="292.5153209" r="6" fill="#356ae6"/>
+<circle cx="168" cy="314.083863962" r="6" fill="#ef8b2c"/>
+<text x="155" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0</text>
+<line x1="240" y1="291.92743606399995" x2="266" y2="263.84265993799994" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="240" cy="291.92743606399995" r="6" fill="#356ae6"/>
+<circle cx="266" cy="263.84265993799994" r="6" fill="#ef8b2c"/>
+<text x="253" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1</text>
+<line x1="338" y1="308.32080210799995" x2="364" y2="365.553944888" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="338" cy="308.32080210799995" r="6" fill="#356ae6"/>
+<circle cx="364" cy="365.553944888" r="6" fill="#ef8b2c"/>
+<text x="351" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">2</text>
+<line x1="436" y1="297.946709852" x2="462" y2="266.97522401000003" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="436" cy="297.946709852" r="6" fill="#356ae6"/>
+<circle cx="462" cy="266.97522401000003" r="6" fill="#ef8b2c"/>
+<text x="449" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">3</text>
+<line x1="534" y1="283.14029750599997" x2="560" y2="156.086655362" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="534" cy="283.14029750599997" r="6" fill="#356ae6"/>
+<circle cx="560" cy="156.086655362" r="6" fill="#ef8b2c"/>
+<text x="547" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">4</text>
+<line x1="632" y1="275.066180444" x2="658" y2="226.28559700999995" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="632" cy="275.066180444" r="6" fill="#356ae6"/>
+<circle cx="658" cy="226.28559700999995" r="6" fill="#ef8b2c"/>
+<text x="645" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">5</text>
+<line x1="730" y1="282.74936670200003" x2="756" y2="196.30508163199994" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="730" cy="282.74936670200003" r="6" fill="#356ae6"/>
+<circle cx="756" cy="196.30508163199994" r="6" fill="#ef8b2c"/>
+<text x="743" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">6</text>
+<line x1="828" y1="309.008526662" x2="854" y2="272.521414418" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="828" cy="309.008526662" r="6" fill="#356ae6"/>
+<circle cx="854" cy="272.521414418" r="6" fill="#ef8b2c"/>
+<text x="841" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">7</text>
+<circle cx="650" cy="76" r="6" fill="#356ae6"/>
+<text x="664" y="81" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Latent</text>
+<circle cx="770" cy="76" r="6" fill="#ef8b2c"/>
+<text x="784" y="81" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Direct joint</text>
+<text x="58" y="516" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">Latent won only 2/8 seeds; paired mean difference −5.3 points (95% CI −12.6 to +2.0).</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#fbfaf7"/>
+<text x="58" y="52" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Peak training memory grows with pixel decoders</text>
+<text x="58" y="79" fill="#667085" font-family="Inter,Arial,sans-serif" font-size="14">Measured CUDA peak allocation at 256×256, batch 8; same shared backbone and task count</text>
+<line x1="130" y1="442.0" x2="830" y2="442.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="118" y="447.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0 GiB</text>
+<line x1="130" y1="368.6666666666667" x2="830" y2="368.6666666666667" stroke="#d9dde7" stroke-width="1"/>
+<text x="118" y="373.6666666666667" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1 GiB</text>
+<line x1="130" y1="295.33333333333337" x2="830" y2="295.33333333333337" stroke="#d9dde7" stroke-width="1"/>
+<text x="118" y="300.33333333333337" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">2 GiB</text>
+<line x1="130" y1="222.0" x2="830" y2="222.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="118" y="227.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">3 GiB</text>
+<line x1="130" y1="148.66666666666669" x2="830" y2="148.66666666666669" stroke="#d9dde7" stroke-width="1"/>
+<text x="118" y="153.66666666666669" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">4 GiB</text>
+<rect x="208" y="402.532" width="88" height="39.467999999999996" rx="7" fill="#356ae6"/>
+<text x="252" y="392.532" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">0.54 GiB</text>
+<text x="252" y="467" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Latent</text>
+<rect x="320" y="274.50666666666666" width="88" height="167.49333333333334" rx="7" fill="#ef8b2c"/>
+<text x="364" y="264.50666666666666" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">2.28 GiB</text>
+<text x="364" y="467" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Per-pixel</text>
+<text x="284" y="498" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">2 tasks</text>
+<text x="284" y="522" fill="#667085" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">4.24× total peak</text>
+<rect x="558" y="402.532" width="88" height="39.467999999999996" rx="7" fill="#356ae6"/>
+<text x="602" y="392.532" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">0.54 GiB</text>
+<text x="602" y="467" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Latent</text>
+<rect x="670" y="145.57933333333335" width="88" height="296.42066666666665" rx="7" fill="#ef8b2c"/>
+<text x="714" y="135.57933333333335" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">4.04 GiB</text>
+<text x="714" y="467" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Per-pixel</text>
+<text x="634" y="498" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700">8 tasks</text>
+<text x="634" y="522" fill="#667085" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">7.51× total peak</text>
+<text x="58" y="520" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">Incremental memory ratios were 5.53× (2 tasks) and 10.09× (8 tasks); the paper estimated 650/78 = 8.33×.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<rect width="960" height="540" fill="#fbfaf7"/>
+<text x="58" y="52" fill="#172033" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Projector fine-tuning recovery</text>
+<text x="58" y="79" fill="#667085" font-family="Inter,Arial,sans-serif" font-size="14">Each line is one independent long-schedule seed; higher is better</text>
+<line x1="110" y1="534.2857142857142" x2="900" y2="534.2857142857142" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="539.2857142857142" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0.8</text>
+<line x1="110" y1="440.0" x2="900" y2="440.0" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="445.0" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0.9</text>
+<line x1="110" y1="345.7142857142857" x2="900" y2="345.7142857142857" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="350.7142857142857" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.0</text>
+<line x1="110" y1="251.42857142857136" x2="900" y2="251.42857142857136" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="256.42857142857133" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.1</text>
+<line x1="110" y1="157.14285714285717" x2="900" y2="157.14285714285717" stroke="#d9dde7" stroke-width="1"/>
+<text x="98" y="162.14285714285717" fill="#667085" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1.2</text>
+<line x1="110" y1="345.7142857142857" x2="900" y2="345.7142857142857" stroke="#172033" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="142" y1="370.73617271428566" x2="168" y2="292.6688345428572" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="142" cy="370.73617271428566" r="6" fill="#356ae6"/>
+<circle cx="168" cy="292.6688345428572" r="6" fill="#129c8b"/>
+<text x="155" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">0</text>
+<line x1="240" y1="369.8963372342857" x2="266" y2="288.70939111142866" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="240" cy="369.8963372342857" r="6" fill="#356ae6"/>
+<circle cx="266" cy="288.70939111142866" r="6" fill="#129c8b"/>
+<text x="253" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">1</text>
+<line x1="338" y1="393.3154315828572" x2="364" y2="301.08230343714297" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="338" cy="393.3154315828572" r="6" fill="#356ae6"/>
+<circle cx="364" cy="301.08230343714297" r="6" fill="#129c8b"/>
+<text x="351" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">2</text>
+<line x1="436" y1="378.49529978857146" x2="462" y2="326.9253550828572" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="436" cy="378.49529978857146" r="6" fill="#356ae6"/>
+<circle cx="462" cy="326.9253550828572" r="6" fill="#129c8b"/>
+<text x="449" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">3</text>
+<line x1="534" y1="357.3432821514285" x2="560" y2="196.45246185714294" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="534" cy="357.3432821514285" r="6" fill="#356ae6"/>
+<circle cx="560" cy="196.45246185714294" r="6" fill="#129c8b"/>
+<text x="547" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">4</text>
+<line x1="632" y1="345.80882920571423" x2="658" y2="206.00754010571418" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="632" cy="345.80882920571423" r="6" fill="#356ae6"/>
+<circle cx="658" cy="206.00754010571418" r="6" fill="#129c8b"/>
+<text x="645" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">5</text>
+<line x1="730" y1="356.78480957428576" x2="756" y2="156.53986832000004" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="730" cy="356.78480957428576" r="6" fill="#356ae6"/>
+<circle cx="756" cy="156.53986832000004" r="6" fill="#129c8b"/>
+<text x="743" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">6</text>
+<line x1="828" y1="394.2978952314286" x2="854" y2="322.9858774057143" stroke="#9aa3b2" stroke-width="2"/>
+<circle cx="828" cy="394.2978952314286" r="6" fill="#356ae6"/>
+<circle cx="854" cy="322.9858774057143" r="6" fill="#129c8b"/>
+<text x="841" y="465" fill="#172033" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">7</text>
+<circle cx="650" cy="76" r="6" fill="#356ae6"/>
+<text x="664" y="81" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">Before FT</text>
+<circle cx="770" cy="76" r="6" fill="#129c8b"/>
+<text x="784" y="81" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400">After FT</text>
+<text x="58" y="516" fill="#172033" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600">Fine-tuning improved all 8 seeds by 11.6 points on average (95% CI +7.0 to +16.2).</text>
+</svg>
