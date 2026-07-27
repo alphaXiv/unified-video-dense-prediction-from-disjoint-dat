@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: unid-repro-{{ORX_RUN}}
+spec:
+  activeDeadlineSeconds: 36000
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: run
+          image: pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
+          command: ["bash", "-c", "$ORX_SCRIPT"]
+          resources:
+            requests:
+              nvidia.com/gpu: "4"
+              cpu: "24"
+              memory: "80Gi"
+            limits:
+              nvidia.com/gpu: "4"
+              cpu: "24"
+              memory: "80Gi"
+
