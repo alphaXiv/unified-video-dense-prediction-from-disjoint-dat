@@ -13,6 +13,7 @@
   "learning_rate": 0.0003,
   "weight_decay": 0.01,
   "pretrained_model": "google/ddpm-cifar10-32",
+  "randomize_backbone": true,
   "profile_resolution": 256,
   "profile_task_counts": [2, 8]
 }

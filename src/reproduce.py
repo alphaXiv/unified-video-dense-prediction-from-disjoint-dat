@@ -37,6 +37,7 @@ NYU_URLS = [
     "https://huggingface.co/datasets/sayakpaul/nyu_depth_v2/resolve/main/data/val-000001.tar",
 ]
 ADE_URL = "https://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip"
+RANDOMIZE_BACKBONE = False
 
 
 def rank() -> int:
@@ -160,6 +161,11 @@ class Backbone(nn.Module):
         from diffusers import UNet2DModel
 
         self.unet = UNet2DModel.from_pretrained(model_id, local_files_only=True)
+        if RANDOMIZE_BACKBONE:
+            for layer in self.unet.modules():
+                reset = getattr(layer, "reset_parameters", None)
+                if reset is not None:
+                    reset()
 
     def forward(self, image: torch.Tensor) -> torch.Tensor:
         x = F.interpolate(image, (32, 32), mode="bilinear", align_corners=False)
@@ -540,10 +546,12 @@ def profile_memory(cfg: dict) -> dict:
 
 
 def main() -> None:
+    global RANDOMIZE_BACKBONE
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", required=True)
     args = parser.parse_args()
     cfg = json.loads(Path(args.config).read_text())
+    RANDOMIZE_BACKBONE = bool(cfg.get("randomize_backbone", False))
     dist.init_process_group("nccl")
     local_rank = int(os.environ["LOCAL_RANK"])
     torch.cuda.set_device(local_rank)
