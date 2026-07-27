@@ -347,7 +347,9 @@ def finetune_projectors(state: dict, cfg: dict, data: dict[str, TaskData]) -> di
     model.to(device)
     ddp = DDP(model, device_ids=[device.index], broadcast_buffers=False, find_unused_parameters=True)
     params = [p for p in ddp.parameters() if p.requires_grad]
-    opt = torch.optim.AdamW(params, lr=cfg["learning_rate"], weight_decay=cfg["weight_decay"])
+    opt = torch.optim.AdamW(
+        params, lr=cfg.get("finetune_learning_rate", cfg["learning_rate"]), weight_decay=cfg["weight_decay"]
+    )
     gen = torch.Generator().manual_seed(cfg["seed"] * 1009 + rank() * 97 + 71)
     curve = []
     for step in range(cfg["finetune_steps"]):

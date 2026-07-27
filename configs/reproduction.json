@@ -9,11 +9,11 @@
   "specialist_steps": 180,
   "joint_steps": 360,
   "distill_steps": 360,
-  "finetune_steps": 120,
+  "finetune_steps": 240,
+  "finetune_learning_rate": 0.00003,
   "learning_rate": 0.0003,
   "weight_decay": 0.01,
   "pretrained_model": "google/ddpm-cifar10-32",
   "profile_resolution": 256,
   "profile_task_counts": [2, 8]
 }
-
