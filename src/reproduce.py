@@ -159,7 +159,12 @@ class Backbone(nn.Module):
         super().__init__()
         from diffusers import UNet2DModel
 
-        self.unet = UNet2DModel.from_pretrained(model_id, local_files_only=True)
+        if model_id.startswith("random:"):
+            source = model_id.split(":", 1)[1]
+            model_config = UNet2DModel.load_config(source, local_files_only=True)
+            self.unet = UNet2DModel.from_config(model_config)
+        else:
+            self.unet = UNet2DModel.from_pretrained(model_id, local_files_only=True)
 
     def forward(self, image: torch.Tensor) -> torch.Tensor:
         x = F.interpolate(image, (32, 32), mode="bilinear", align_corners=False)
@@ -569,7 +574,7 @@ def main() -> None:
         cache.mkdir(parents=True, exist_ok=True)
         from huggingface_hub import snapshot_download
 
-        snapshot_download(cfg["pretrained_model"])
+        snapshot_download(cfg["pretrained_model"].removeprefix("random:"))
         nyu_path = prepare_nyu(cache, cfg)
         ade_path = prepare_ade(cache, cfg)
         paths = [str(nyu_path), str(ade_path)]
