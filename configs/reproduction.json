@@ -1,5 +1,5 @@
 {
-  "seed": 0,
+  "seed": 7,
   "image_size": 64,
   "batch_per_gpu": 8,
   "depth_train": 512,
